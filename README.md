@@ -9,9 +9,9 @@ GoTorrentWebClient is a simple localhost torrent client similar to uTorrent web 
 
 P.S.:
 - To resume download stopped torrent, the partially downloaded file need to be in the original path.
-- To stream the media the file need to be in the original path, also not all video type support partial downloaded stream.
--- .mp4 depend on its encoding
--- .webm work best
+- To stream the media the file need to be in the original path, also not all video type support partial downloaded stream.\
+-- .mp4 depend on its encoding\
+-- .webm work best\
 -- .mkv have picture but dont have audio
 
 ## Getting started
@@ -30,7 +30,7 @@ GOOS=windows GOARCH=amd64 go build -o GoTorrentWebClient.exe
 ```
 
 As for windows user:
-1. Just download the builded .exe from my github
+1. Just download the builded .exe from my github [HERE](https://github.com/xncs120/go-torrent-web-client/releases/tag/v0.2.0-alpha)
 
 ### How to use
 1. Create a folder called GoTorrentWebClient (or any name)
@@ -39,4 +39,4 @@ As for windows user:
 4. Open your browser and go to http://localhost:60000/
 
 ## Reference and external source
-- [Anacrolix torrent pkg](https://github.com/anacrolix/torrent)
+- [Anacrolix torrent package](https://github.com/anacrolix/torrent)
